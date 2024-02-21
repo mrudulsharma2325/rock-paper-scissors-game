@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.heading{
+    text-align: center;
+    color: darkgreen;
+    background-color:grey ;
+    text-transform: capitalize;
+}
+body{
+    align-items: center;
+    background-color:bisque;
+}
+.img{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 15%;
+    padding-left: 38%;
+    padding-right: 10%;
+
+
+
+   
+    
+}
+#rock:hover,#paper:hover,#scissors:hover{
+    cursor: pointer;
+    background-color: darkslategray;
+}
+#rock{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 2vmin;
+
+
+}
+#paper{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 2vmin;
+
+}
+#scissors{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 2vmin;
+
+}
+.score{
+    text-align: center;
+    font-size: 40px;;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+    padding: 1.5vmin;
+    padding-left: 7%;
+
+}
+.you{
+    margin: 3.5vmin;
+    border-radius: 2vmin;
+    border: none;
+    color: darkblue;
+}
+.computer{
+    margin: 3.5vmin;
+    border-radius: 2vmin;
+    border: none;
+    color: darkblue;
+}
+.result{
+   margin-top: 5rem;
+   text-align: center;
+   text-transform: capitalize;
+   padding-left: 7%;
+
+}
+#display{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+
+
+}
